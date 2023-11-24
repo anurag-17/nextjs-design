@@ -11,14 +11,14 @@ const NewProduct = ({ cardItems, title }) => {
               {title}
             </h3>
             <div className="bg-[#54A3F2] w-[142px] mx-auto h-[3px] mt-[15px]"></div>
-            <div className="md:pt-[70px] pt-[30px] flex  flex-wrap md:flex-row lg:flex-nowrap gap-x-5 xl:gap-x-10 gap-y-10 md:px-0 px-4 justify-center ">
+            <div className="md:pt-[70px] pt-[30px] flex  flex-wrap md:flex-row lg:flex-nowrap gap-x-5 xl:gap-x-10 gap-y-5  xl:gap-y-10 md:px-0 px-4 justify-center ">
               {cardItems.map((items, inx) => (
-                <div className="border border-[#D0D0D0] rounded-[20px] bg-white  px-3 pt-4 pb-2 md:pb-8">
-                  <div className="relative">
+                <div className="border border-[#D0D0D0] rounded-[20px] bg-white  px-3 pt-4 pb-3 md:pb-8 2xl:w-[25%]">
+                  <div className="relative ">
                     <img
                       src={items.url}
                       alt="Loading.."
-                      className="md:w-[320px] sm:w-[350px] lg:w-auto"
+                      className="md:w-[320px] sm:w-[350px]  h-auto 2xl:max-w-[320px]"
                     />
                     {items?.isCart && (
                       <div className=" absolute bottom-0 left-[10px] right-[10px] ">
