@@ -11,14 +11,15 @@ const NewProduct = ({ cardItems, title }) => {
               {title}
             </h3>
             <div className="bg-[#54A3F2] w-[142px] mx-auto h-[3px] mt-[15px]"></div>
-            <div className="md:pt-[70px] pt-[30px] flex  flex-wrap md:flex-row lg:flex-nowrap gap-x-5 xl:gap-x-10 gap-y-5  xl:gap-y-10 md:px-0 px-4 justify-center ">
+           <div className="">
+           <div className="md:pt-[70px] pt-[30px] flex  flex-wrap md:flex-row lg:flex-nowrap gap-x-5 2xl:gap-x-5 gap-y-5  xl:gap-y-10 md:px-0 px-4 justify-between ">
               {cardItems.map((items, inx) => (
-                <div className="border border-[#D0D0D0] rounded-[20px] bg-white  px-3 pt-4 pb-3 md:pb-8 2xl:w-[25%]">
+                <div className="border border-[#D0D0D0]  rounded-[20px] bg-white  px-3 pt-4 pb-3 md:pb-8 2xl:w-[23.5%]">
                   <div className="relative ">
                     <img
                       src={items.url}
                       alt="Loading.."
-                      className="md:w-[320px] sm:w-[350px]  h-auto 2xl:max-w-[320px]"
+                      className="md:w-[320px] sm:w-[350px]  h-auto 2xl:max-w-[300px]"
                     />
                     {items?.isCart && (
                       <div className=" absolute bottom-0 left-[10px] right-[10px] ">
@@ -29,7 +30,7 @@ const NewProduct = ({ cardItems, title }) => {
                     )}
                   </div>
                   <div className="px-4 flex flex-col gap-5 pt-5 ">
-                    <h6 className="text-black font-['Red_Hat_Display'] text-[16px] font-medium leading-[26px] 2xl:whitespace-nowrap">
+                    <h6 className="text-black font-['Red_Hat_Display'] text-[15px] 2xl:text-[16px] font-medium leading-[26px] 2xl:whitespace-nowrap">
                       Rubber Strap for Moonswatch -{" "}
                       <span className=" capitalize">{items.color}</span>
                     </h6>
@@ -48,6 +49,7 @@ const NewProduct = ({ cardItems, title }) => {
                 </div>
               ))}
             </div>
+           </div>
           </div>
         </div>
       </section>
