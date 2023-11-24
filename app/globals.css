@@ -73,7 +73,7 @@ h1{
 
 /* ------------   icons hover ----------- */
 
- .watch_img {
+ /* .watch_img {
   transition: transform 2000ms;
   will-change: transform;
   overflow: hidden;
@@ -82,7 +82,7 @@ h1{
  .watch_img:hover img,
  .watch_img:focus img {
   transform : translateY(10px) scale(1.1);
-}
+} */
 
 
 @media only screen and (max-width: 1600px){
