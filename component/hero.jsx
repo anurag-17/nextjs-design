@@ -24,9 +24,9 @@ const Herosection = ({ handleShow, isShow }) => {
                   {navItems.map((menu) => (
                     <li
                       className="text-white font-['Red_Hat_Display'] text-[14px] font-medium leading-normal menu-list cursor-default"
-                      data-aos="fade-down"
-                      data-aos-easing="linear"
-                      data-aos-duration="1500"
+                      // data-aos="fade-down"
+                      // data-aos-easing="linear"
+                      // data-aos-duration="1500"
                     >
                       {menu}
                     </li>

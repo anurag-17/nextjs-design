@@ -9,7 +9,7 @@ const NewProduct2 = () => {
           <div className="grid md:grid-cols-2 md:flex-row justify-center items-center gap-x-10 gap-y-10 py-4 md-py-0">
             <div className="" data-aos="fade-down-right" 
                 data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000" 
+                data-aos-duration="1000" 
                 data-aos-delay="50">
               <img src="/images/watch5.png" alt="watch.." />
             </div>
