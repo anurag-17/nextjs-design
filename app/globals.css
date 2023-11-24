@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.hero-section{
+  background: url("/images/hero.png");
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-section::after{
+  content: "";
+  position: absolute;
+  background: rgba(84, 163, 242, 0.15);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 1;
+}
+
+h1{
+  font-size: 70px;
+}
+
+.img-inner{
+  opacity: 0;
+  transition: ease-in-out;
+  transition-duration: 500ms;
+  /* transition-delay: 1s; */
+}
+
+.img-box:hover .img-inner{
+  opacity: 0.8;
+}
+
+.menu-list{
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s ease;
+}
+
+.menu-list:hover{
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  /* font-weight: bold; */
+  /* position: relative; */
+}
+
+
+/* .menu-list:hover {
+  color: #fff; 
+}
+
+.menu-list::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #fff;
+  transition: width 0.3s ease;
+}
+
+.menu-list:hover::after {
+  width: 10px; 
+} */
+
+
+@media only screen and (max-width: 1600px){
+  h1{
+    font-size: 50px;
+    
+  }
+}
+@media only screen and (min-width: 1536px){
+  .container {
+    max-width: 1480px;
+  }
+}
+  
+@media only screen and (max-width: 1400px){
+
+}
+  
+@media only screen and (max-width: 1024px){
+  .hero-section{
+    height: auto;
+  }
+  
+  .hero-section::after{
+    height: auto;
+  }
+
+h1{
+  font-size: 30px;
+}
+  
+}
+  
+
+@media only screen and (max-width: 767px){
+  
+  h1{
+    font-size: 30px;
+    text-align: center;
+  }
+
+}
