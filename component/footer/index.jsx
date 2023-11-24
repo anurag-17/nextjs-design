@@ -118,7 +118,7 @@ const Footer = () => {
           </div>
 
           {/* bottom */}
-          <div className="flex flex-wrap sm:flex-nowrap gap-y-6 justify-center  sm:justify-between items-center py-4 border-t border-t-[#315031]">
+          <div className="flex flex-wrap-reverse sm:flex-nowrap  gap-y-3 md:gap-y-6 justify-center  sm:justify-between items-center py-4 border-t border-t-[#315031]">
             <p className="text-[14px] font-normal text-[#A1A1A1] leading-[21px] font-['Red_Hat_Display'] ">
               © 2023 VINCENT PARIS. All Rights Reserved.
             </p>

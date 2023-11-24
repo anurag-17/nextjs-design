@@ -7,7 +7,7 @@ const NewProduct = ({ cardItems, title }) => {
       <section className="py-[30px] lg:py-[50px]">
         <div className="container mx-auto">
           <div className="">
-            <h3 className="text-black font-['Red_Hat_Display'] text-[35px] font-bold leading-[45px] text-center uppercase">
+            <h3 className="text-black font-['Red_Hat_Display'] text-[24px] md:text-[35px] font-bold leading:[30px] md:leading-[45px] text-center uppercase">
               {title}
             </h3>
             <div className="bg-[#54A3F2] w-[142px] mx-auto h-[3px] mt-[15px]"></div>
@@ -22,7 +22,7 @@ const NewProduct = ({ cardItems, title }) => {
                     />
                     {items?.isCart && (
                       <div className=" absolute bottom-0 left-[10px] right-[10px] ">
-                        <button className=" inline-flex justify-center items-center gap-10 text-[14px] lg:text-[16px] px-6 xl:px-[45px] py-[17px] rounded-[50px] bg-[#000]  text-white font-semibold leading-[26px] font-[Montserrat] uppercase mx-auto  whitespace-nowrap w-full">
+                        <button className=" inline-flex justify-center items-center gap-10 text-[14px] lg:text-[16px] px-6 xl:px-[45px] py-[17px] rounded-[50px] bg-[#000]  text-white font-semibold leading-[26px] font-[Montserrat] uppercase mx-auto  whitespace-nowrap w-full hover:bg-[#16202c] transition ">
                           Add to cart
                         </button>
                       </div>

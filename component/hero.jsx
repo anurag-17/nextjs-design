@@ -44,8 +44,7 @@ const Herosection = ({ handleShow, isShow }) => {
           </div>
         </div>
 
-
-{/* mobile */}
+        {/* mobile */}
         <div className="container mx-auto md:absolute md:top-0 ">
           <div className="lg:hidden flex justify-between items-center w-full px-4 py-4 z-[999] ">
             <div className="w-[100px] ">
@@ -68,7 +67,7 @@ const Herosection = ({ handleShow, isShow }) => {
               </div>
               <ul className="flex flex-col gap-x-10 gap-y-8  px-8 py-8">
                 {navItems.map((menu) => (
-                  <li className="text-white font-['Red_Hat_Display'] text-[14px] font-medium leading-normal">
+                  <li className="text-white font-['Red_Hat_Display'] text-[14px] font-medium leading-normal ">
                     {menu}
                   </li>
                 ))}
@@ -77,7 +76,7 @@ const Herosection = ({ handleShow, isShow }) => {
           )}
         </div>
 
-{/* mobile */}
+        {/* mobile */}
 
         <div className="container mx-auto ">
           <div className="grid md:grid-cols-2 lg:justify-center lg:items-center gap-x-20 gap-y-10 pt-1 lg:pt-[100px] lg:mt-0 mt-[70px]">
@@ -90,7 +89,7 @@ const Herosection = ({ handleShow, isShow }) => {
                 it deserves
               </h1>
               <div className="mx-auto md:mx-0">
-              <Button/>
+                <Button />
               </div>
             </div>
             <div className="">

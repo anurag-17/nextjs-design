@@ -10,7 +10,7 @@ const Reviews = () => {
       <section className="py-[30px] lg:py-[50px]">
         <div className="container mx-auto">
           <div className="">
-            <h3 className="text-black font-['Red_Hat_Display'] text-[35px] font-bold leading-[45px] text-center px-4">
+            <h3 className="text-black font-['Red_Hat_Display'] text-[24px] md:text-[35px] leading:[30px] md:leading-[45px] font-bold leading-[45px] text-center px-4">
               WHAT OUR CUSTOMER’S SAY
             </h3>
             <div className="bg-[#54A3F2] w-[142px] mx-auto h-[3px] mt-[15px]"></div>
