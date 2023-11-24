@@ -7,19 +7,27 @@ const NewProduct = ({ cardItems, title }) => {
       <section className="py-[30px] lg:py-[50px]">
         <div className="container mx-auto">
           <div className="">
-            <h3 className="text-black font-['Red_Hat_Display'] text-[24px] md:text-[35px] font-bold leading:[30px] md:leading-[45px] text-center uppercase">
+            <h3 className="text-black font-['Red_Hat_Display'] text-[24px] md:text-[35px] font-bold leading:[30px] md:leading-[45px] text-center uppercase"
+            data-aos="fade-down"
+            data-aos-easing="ease-in-out"
+            data-aos-duration="1000" >
+              
               {title}
             </h3>
             <div className="bg-[#54A3F2] w-[142px] mx-auto h-[3px] mt-[15px]"></div>
            <div className="">
            <div className="md:pt-[70px] pt-[30px] flex  flex-wrap md:flex-row lg:flex-nowrap gap-x-5 2xl:gap-x-5 gap-y-5  xl:gap-y-10 md:px-0 px-4 justify-between ">
               {cardItems.map((items, inx) => (
-                <div className="border border-[#D0D0D0]  rounded-[20px] bg-white  px-3 pt-4 pb-3 md:pb-8 2xl:w-[23.5%]">
-                  <div className="relative ">
+                <div className="border border-[#D0D0D0]  rounded-[20px] bg-white  px-3 pt-4 pb-3 md:pb-8 2xl:w-[23.5%]" 
+                data-aos="fade-up" 
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000" 
+                data-aos-delay="50">
+                  <div className="relative watch_img">
                     <img
                       src={items.url}
                       alt="Loading.."
-                      className="md:w-[320px] sm:w-[350px]  h-auto 2xl:max-w-[300px]"
+                      className="md:w-[320px] sm:w-[350px]  h-auto 2xl:max-w-[300px] "
                     />
                     {items?.isCart && (
                       <div className=" absolute bottom-0 left-[10px] right-[10px] ">

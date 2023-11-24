@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 
+html{
+scroll-behavior: smooth;
+}
 
 .hero-section{
   background: url("/images/hero.png");
@@ -56,24 +59,30 @@ h1{
 }
 
 
-/* .menu-list:hover {
-  color: #fff; 
+/* ------------   icons hover ----------- */
+
+ .support_box .support-icon {
+  transition: transform 1400ms;
+  will-change: transform;
 }
 
-.menu-list::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-  width: 0;
-  background-color: #fff;
-  transition: width 0.3s ease;
+ .support_box:hover .support-icon,
+ .support_box:focus .support-icon{
+  transform:  rotate(360deg);;
 }
 
-.menu-list:hover::after {
-  width: 10px; 
-} */
+/* ------------   icons hover ----------- */
+
+ .watch_img {
+  transition: transform 2000ms;
+  will-change: transform;
+  overflow: hidden;
+}
+
+ .watch_img:hover img,
+ .watch_img:focus img {
+  transform : translateY(10px) scale(1.1);
+}
 
 
 @media only screen and (max-width: 1600px){

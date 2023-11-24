@@ -39,7 +39,12 @@ const FollowUs = () => {
               {cardItems.map((items) => (
              
                   
-                  <div className="relative img-box">
+                  <div className="relative img-box"   
+                  data-aos="flip-left" 
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="1000" 
+                  data-aos-delay="50"
+                  >
                     <img
                       src={items.url}
                       alt="Loading.."

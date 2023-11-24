@@ -1,4 +1,6 @@
 "use client";
+import React, { useState, useEffect } from "react";
+
 import FollowUs from "@/component/followUs";
 import Footer from "@/component/footer";
 import Herosection from "@/component/hero";
@@ -7,7 +9,8 @@ import NewProduct2 from "@/component/new-product/newProduct2";
 import Reviews from "@/component/reviews";
 import Section2 from "@/component/section2";
 
-import React, { useState } from "react";
+import AOS from 'aos';
+
 
 export default function Home() {
   const [isShow, setShow] = useState(false);
@@ -15,6 +18,11 @@ export default function Home() {
   const handleShow = ({ value }) => {
     setShow(value);
   };
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
 
   const newProductItems = [
     {

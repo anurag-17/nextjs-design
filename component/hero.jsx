@@ -22,7 +22,12 @@ const Herosection = ({ handleShow, isShow }) => {
               <div className="flex lg:gap-x-10  xl:gap-x-20  items-center">
                 <ul className="md:flex flex-row lg:gap-x-5  xl:gap-x-10 hidden z-[999]">
                   {navItems.map((menu) => (
-                    <li className="text-white font-['Red_Hat_Display'] text-[14px] font-medium leading-normal menu-list cursor-default">
+                    <li
+                      className="text-white font-['Red_Hat_Display'] text-[14px] font-medium leading-normal menu-list cursor-default"
+                      data-aos="fade-down"
+                      data-aos-easing="linear"
+                      data-aos-duration="1500"
+                    >
                       {menu}
                     </li>
                   ))}
@@ -80,7 +85,12 @@ const Herosection = ({ handleShow, isShow }) => {
 
         <div className="container mx-auto ">
           <div className="grid md:grid-cols-2 lg:justify-center lg:items-center gap-x-20 gap-y-10 pt-1 lg:pt-[100px] lg:mt-0 mt-[70px]">
-            <div className="flex flex-col gap-5 lg:gap-10 justify-center  z-[99]">
+            <div
+              className="flex flex-col gap-5 lg:gap-10 justify-center  z-[99] sal-example"
+              data-aos="fade-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
               <h1 className="font-bold leading-[42px] lg:leading-[62px] 2xl:leading-[85px] uppercase text-white">
                 Give your
                 <p className="">
@@ -92,7 +102,12 @@ const Herosection = ({ handleShow, isShow }) => {
                 <Button />
               </div>
             </div>
-            <div className="">
+            <div
+              className=""
+              data-aos="fade-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+            >
               <img src="/images/main_watch.png" alt="" />
             </div>
             {/* <div className="hero-bottom md:hidden block">
