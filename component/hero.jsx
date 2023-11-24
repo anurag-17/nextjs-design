@@ -16,18 +16,18 @@ const Herosection = ({ handleShow, isShow }) => {
         <div className="lg:absolute top-0 w-full mt-[22px]">
           <div className="container mx-auto">
             <div className="lg:flex justify-between items-center h-[100px] hidden ">
-              <div className="md:w-[120px] xl:w-auto">
+              <div className="md:w-[120px] xl:w-auto z-[999]">
                 <img src="/svg/logo.svg" alt="Logo." />
               </div>
               <div className="flex lg:gap-x-10  xl:gap-x-20  items-center">
-                <ul className="md:flex flex-row lg:gap-x-5  xl:gap-x-10 hidden">
+                <ul className="md:flex flex-row lg:gap-x-5  xl:gap-x-10 hidden z-[999]">
                   {navItems.map((menu) => (
                     <li className="text-white font-['Red_Hat_Display'] text-[14px] font-medium leading-normal menu-list cursor-default">
                       {menu}
                     </li>
                   ))}
                 </ul>
-                <div className="w-[1px] bg-[rgba(255,255,255,0.21);] h-[73px]"></div>
+                <div className="w-[1px] bg-[rgba(255,255,255,0.21);] h-[73px] z-[999]"></div>
                 <div className="flex lg:gap-x-5  xl:gap-x-8">
                   <div className="">
                     <img src="/svg/search.svg" alt="search" />
@@ -46,9 +46,9 @@ const Herosection = ({ handleShow, isShow }) => {
 
 
 {/* mobile */}
-        <div className="container mx-auto md:absolute md:top-0">
-          <div className="lg:hidden flex justify-between items-center w-full px-4 py-4 ">
-            <div className="w-[100px]">
+        <div className="container mx-auto md:absolute md:top-0 ">
+          <div className="lg:hidden flex justify-between items-center w-full px-4 py-4 z-[999] ">
+            <div className="w-[100px] ">
               <img src="/svg/logo.svg" alt="Logo." />
             </div>
             <div
@@ -79,12 +79,9 @@ const Herosection = ({ handleShow, isShow }) => {
 
 {/* mobile */}
 
-
-
-
-        <div className="container mx-auto">
-          <div className="grid md:grid-cols-2 lg:justify-center lg:items-center gap-x-20 gap-y-10 pt-1 lg:pt-[100px] lg:mt-0 mt-[70px] z-10">
-            <div className="flex flex-col gap-5 lg:gap-10 justify-center ">
+        <div className="container mx-auto ">
+          <div className="grid md:grid-cols-2 lg:justify-center lg:items-center gap-x-20 gap-y-10 pt-1 lg:pt-[100px] lg:mt-0 mt-[70px]">
+            <div className="flex flex-col gap-5 lg:gap-10 justify-center  z-[999]">
               <h1 className="font-bold leading-[42px] lg:leading-[62px] 2xl:leading-[85px] uppercase text-white">
                 Give your
                 <p className="">
