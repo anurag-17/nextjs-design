@@ -3,9 +3,11 @@ import React, { useEffect } from "react";
 import "particles.js";
 import dynamic from "next/dynamic";
 
+
 const ParticleComponent = () => {
+
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+     if (typeof window !== 'undefined') {
       window.particlesJS("particles-js", {
         particles: {
           number: {

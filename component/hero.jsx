@@ -1,5 +1,6 @@
 "use Client";
 
+import dynamic from "next/dynamic";
 import { useEffect, useState } from "react";
 import Button from "./button/Button";
 import ParticleComponent from "./particalComponent";
@@ -14,7 +15,7 @@ const Herosection = ({ handleShow, isShow }) => {
     "CONTACT US",
   ];
   useEffect(() => {
-    if(typeof window !== 'undefined'){
+    if (typeof window !== 'undefined') {
       const handleScroll = () => {
         const scrollPosition = window.scrollY;
         setScrolled(scrollPosition > 0);
@@ -133,4 +134,4 @@ const Herosection = ({ handleShow, isShow }) => {
   );
 };
 
-export default Herosection;
+export default dynamic(() => Promise.resolve(Herosection), { ssr: false });
