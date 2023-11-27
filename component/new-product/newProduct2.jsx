@@ -12,7 +12,7 @@ const NewProduct2 = () => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="1000" 
                 data-aos-delay="50">
-              <Image src="/images/watch5.png" alt="watch.."   height={700} width={750} />
+              <Image src="/images/watch5.webp" alt="watch.."   height={700} width={750} />
             </div>
             <div className="flex flex-col gap-3 xl:gap-6 text-center md:text-left lg:pl-[40px]  px-[30px] md:px-0 xl:w-[585px]"
              data-aos="fade-up" 
