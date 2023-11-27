@@ -1,6 +1,7 @@
 "use Client";
 import React, { useEffect } from "react";
 import "particles.js";
+import dynamic from "next/dynamic";
 
 const ParticleComponent = () => {
   useEffect(() => {
@@ -119,4 +120,4 @@ const ParticleComponent = () => {
   );
 };
 
-export default ParticleComponent;
+export default dynamic(() => Promise.resolve(ParticleComponent), { ssr: false });
