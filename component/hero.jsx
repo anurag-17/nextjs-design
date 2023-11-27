@@ -14,14 +14,14 @@ const Herosection = ({ handleShow, isShow }) => {
     "CONTACT US",
   ];
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       const handleScroll = () => {
         const scrollPosition = window.scrollY;
         setScrolled(scrollPosition > 0);
       };
-  
+
       window.addEventListener("scroll", handleScroll);
-  
+
       return () => {
         window.removeEventListener("scroll", handleScroll);
       };
@@ -109,11 +109,13 @@ const Herosection = ({ handleShow, isShow }) => {
 
         <div className="container mx-auto z-[99]">
           <div className="grid md:grid-cols-2 lg:justify-center lg:items-center gap-x-20 gap-y-10 pt-1 lg:pt-[100px] md:mt-0 mt-[70px]">
-            <div className="flex flex-col gap-5 lg:gap-10 justify-center  z-[99] sal-example"
-                 data-aos="fade-right" 
-                 data-aos-easing="ease-out-cubic"
-                 data-aos-duration="1000" 
-                 data-aos-delay="50">
+            <div
+              className="flex flex-col gap-5 lg:gap-10 justify-center  z-[99] sal-example"
+              data-aos="fade-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000"
+              data-aos-delay="50"
+            >
               <h1 className="font-bold leading-[42px] lg:leading-[62px] 2xl:leading-[85px] uppercase text-white">
                 Give your
                 <p className="">
@@ -121,20 +123,20 @@ const Herosection = ({ handleShow, isShow }) => {
                 </p>
                 it deserves
               </h1>
-              <div className="mx-auto md:mx-0"
-                  
-                  >
+              <div className="mx-auto md:mx-0">
                 <Button />
               </div>
             </div>
-            <div className=""
-             data-aos="fade-left" 
-             data-aos-easing="ease-out-cubic"
-             data-aos-duration="1000" >
+            <div
+              className="2-[99]"
+              data-aos="fade-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000"
+            >
               <img src="/images/main_watch.png" alt="" />
             </div>
           </div>
-        </div> 
+        </div>
       </main>
     </>
   );
