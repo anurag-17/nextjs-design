@@ -84,16 +84,16 @@ const Herosection = ({ handleShow, isShow }) => {
             className=" h-[35px] w-[35px] cursor-pointer z-[999]"
             onClick={() => handleShow({ value: true })}
           >
-            <img src="/svg/menu.svg" alt="menu" />
+            <Image src="/svg/menu.svg" alt="menu" height={35} width={35}/>
           </div>
         </div>
         {isShow && (
-          <div className="absolute  left-0 top-0 w-full h-auto  bg-[#4499ed] lg:hidden  z-[9]">
+          <div className="absolute  left-0 top-0 w-full h-auto  bg-[#4499ed] lg:hidden  z-[999]">
             <div
               className=" h-[35px] w-[35px]  cursor-pointer pt-4 pr-4 ml-auto z-[999]"
               onClick={() => handleShow({ value: false })}
             >
-              <img src="/svg/close.svg" alt="close" />
+              <Image src="/svg/close.svg" alt="close" height={35} width={40}/>
             </div>
             <ul className="flex flex-col gap-x-10 gap-y-8  px-8 py-8">
               {navItems.map((menu) => (
