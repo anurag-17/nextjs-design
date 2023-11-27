@@ -7,14 +7,14 @@ const NewProduct2 = () => {
       <section className="lg:py-[50px] py-[30px] px-4 md:px-0">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 md:flex-row justify-center items-center gap-x-10 gap-y-10 py-4 md-py-0">
-            <div className="" data-aos="fade-down-right" 
+            <div className="" data-aos="fade-up" 
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="1000" 
                 data-aos-delay="50">
               <img src="/images/watch5.png" alt="watch.." />
             </div>
             <div className="flex flex-col gap-3 xl:gap-6 text-center md:text-left lg:pl-[40px]  px-[30px] md:px-0 xl:w-[585px]"
-             data-aos="fade-down-left" 
+             data-aos="fade-up" 
              data-aos-easing="ease-out-cubic"
              data-aos-duration="2000" 
              data-aos-delay="50">
@@ -35,14 +35,14 @@ const NewProduct2 = () => {
           </div>
 
           <div className="md:pt-[70px] pt-[30px] flex flex-wrap lg:flex-nowrap md:gap-5 gap-y-5 lg:gap-10  justify-center items-center">
-            <div className="lg:w-[40%] md:w-[70%] w-full"    data-aos="fade-up-right" 
+            <div className="lg:w-[40%] md:w-[70%] w-full"    data-aos="fade-up" 
              data-aos-easing="ease-out-cubic"
              data-aos-duration="2000" 
              data-aos-delay="50">
                 <img src="/images/watch8.png" alt="" className="lg:w-[550px]" />
             </div>
             <div className="lg:w-[60%] md:w-[70%] w-full relative flex justify-center items-center"
-               data-aos="fade-up-left" 
+               data-aos="fade-up" 
                data-aos-easing="ease-out-cubic"
                data-aos-duration="2000" 
                data-aos-delay="50">

@@ -3,7 +3,7 @@ import React from "react";
 const Reviews = () => {
 
   const cardItems = [
-    1,2,3
+    3,6,9
   ]
   return (
     <>
@@ -11,7 +11,7 @@ const Reviews = () => {
         <div className="container mx-auto">
           <div className="">
             <h3 className="text-black font-['Red_Hat_Display'] text-[24px] md:text-[35px] leading:[30px] md:leading-[45px] font-bold leading-[45px] text-center px-4"
-              data-aos="fade-down"
+              data-aos="fade-up"
               data-aos-easing="ease-in-out"
               data-aos-duration="1000" 
               >
@@ -22,14 +22,14 @@ const Reviews = () => {
               {cardItems.map((items) => (
                 <div
                   className={`rounded-[20px] flex flex-col gap-5   xl:gap-10 text-center px-[20px] lg:px-[50px] lg:py-[50px] xl:px-[100px] py-[20px] ${
-                    items == 2 ? "bg-[#F3F3F3]" : "bg-white "
+                    items == 6 ? "bg-[#F3F3F3]" : "bg-white "
                   }`}
                   key={items}
 
-                  data-aos="zoom-in-up"
+                  data-aos="fade-up"
                   data-aos-easing="ease-in-out"
                   data-aos-duration="2000" 
-                  data-aos-delay="50"
+                  data-aos-delay="500"
                 >
                   
                   <div className="">
