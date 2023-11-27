@@ -1,6 +1,7 @@
 "use Client";
 
 import dynamic from "next/dynamic";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import Button from "./button/Button";
 
@@ -133,7 +134,7 @@ const Herosection = ({ handleShow, isShow }) => {
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
             >
-              <img src="/images/main_watch.png" alt="" />
+              <Image src="/images/main_watch.png" alt="watch.." height={200} width={500} />
             </div>
           </div>
         </div>
