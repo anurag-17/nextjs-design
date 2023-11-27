@@ -134,7 +134,7 @@ const Herosection = ({ handleShow, isShow }) => {
               <img src="/images/main_watch.png" alt="" />
             </div>
           </div>
-        </div>
+        </div> 
       </main>
     </>
   );
