@@ -14,20 +14,6 @@ const Herosection = ({ handleShow, isShow }) => {
     "WHO ARE WE",
     "CONTACT US",
   ];
-  useEffect(() => {
-    if (typeof window !== 'undefined') {
-      const handleScroll = () => {
-        const scrollPosition = window.scrollY;
-        setScrolled(scrollPosition > 0);
-      };
-  
-      window.addEventListener("scroll", handleScroll);
-  
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    }
-  }, []);
 
   const navbarStyle = {
     position: "fixed",
