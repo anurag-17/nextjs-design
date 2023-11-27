@@ -46,7 +46,7 @@ const NewProduct = ({ cardItems, title }) => {
                       <span className=" capitalize">{items.color}</span>
                     </h6>
                     <div className="">
-                      <img src="/svg/star.svg" alt="review" />
+                      <Image src="/svg/star.svg" alt="review"  height={16} width={94} />
                     </div>
                     <div className="flex md:flex-wrap items-center gap-x-10">
                       <h5 className="text-black font-['Red_Hat_Display'] text-[16px] font-bold leading-[26px] whitespace-nowrap">

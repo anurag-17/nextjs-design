@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Reviews = () => {
@@ -33,10 +34,11 @@ const Reviews = () => {
                 >
                   
                   <div className="">
-                    <img
+                    <Image
                       src="/svg/ps_quote.svg"
                       alt="Loading.."
                       className="mx-auto"
+                      height={42} width={46}
                     />
                   </div>
                   <p className="text-[#868686] font-['Red_Hat_Display'] text-[18px] font-normal leading-[28px]">

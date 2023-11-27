@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import Button from "../button/Button";
 
@@ -11,7 +12,7 @@ const NewProduct2 = () => {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="1000" 
                 data-aos-delay="50">
-              <img src="/images/watch5.png" alt="watch.." />
+              <Image src="/images/watch5.png" alt="watch.."   height={700} width={750} />
             </div>
             <div className="flex flex-col gap-3 xl:gap-6 text-center md:text-left lg:pl-[40px]  px-[30px] md:px-0 xl:w-[585px]"
              data-aos="fade-up" 
@@ -39,15 +40,15 @@ const NewProduct2 = () => {
              data-aos-easing="ease-out-cubic"
              data-aos-duration="2000" 
              data-aos-delay="50">
-                <img src="/images/watch8.png" alt="" className="lg:w-[550px]" />
+                <Image src="/images/watch8.png" alt="" className="mx-auto" height={300} width={550}/>
             </div>
             <div className="lg:w-[60%] md:w-[70%] w-full relative flex justify-center items-center"
                data-aos="fade-up" 
                data-aos-easing="ease-out-cubic"
                data-aos-duration="2000" 
                data-aos-delay="50">
-                <img src="/images/watch9.png" alt="" className="lg:w-[855px]" />
-                <img src="/svg/social/play.svg" alt="loading."  className="absolute  transform "/>
+                <Image src="/images/watch9.png" alt="" className="mx-auto" height={300} width={855} />
+                <Image src="/svg/social/play.svg" alt="loading."  className="absolute  transform "  height={60} width={60} />
             </div>
           </div>
         </div>
