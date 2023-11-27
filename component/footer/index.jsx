@@ -25,7 +25,7 @@ const Footer = () => {
     <>
       <section className="bg-[#0F1B29]">
         <div className="container mx-auto">
-          <div className="flex flex-wrap lg:flex-nowrap gap-y-10 lg:gap-x-5 xl:gap-x-10 2xl:gap-x-20 py-[30px] lg:py-[80px] justify-between  ">
+          <div className="flex flex-wrap lg:flex-nowrap gap-y-10 gap-x-3 lg:gap-x-5 xl:gap-x-10 2xl:gap-x-20 py-[30px] lg:py-[80px] justify-between  ">
             <div className=" flex flex-col gap-5 lg:gap-8 w-full sm:w-[40%] md:w-[22%]">
               <div className="">
                 <img src="/svg/logo.svg" alt="Logo" className="w-[150px]" />
