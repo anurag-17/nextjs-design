@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 import NewProduct2 from "./newProduct2";
 
@@ -22,12 +23,14 @@ const NewProduct = ({ cardItems, title }) => {
                 data-aos="fade-up" 
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000" 
-                data-aos-delay="50">
+                data-aos-delay="50"
+                key={inx}>
                   <div className="relative watch_img">
-                    <img
+                    <Image
                       src={items.url}
                       alt="Loading.."
-                      className="md:w-[320px] sm:w-[350px]  h-auto 2xl:max-w-[300px] "
+                      height={300} width={330} 
+                      className="mx-auto"
                     />
                     {items?.isCart && (
                       <div className=" absolute bottom-0 left-[10px] right-[10px] ">
