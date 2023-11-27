@@ -47,7 +47,7 @@ const Herosection = ({ handleShow, isShow }) => {
           <div className="container mx-auto">
             <div className="lg:flex justify-between items-center h-[100px]  ">
               <div className="md:w-[120px] xl:w-auto z-[999]">
-                <img src="/svg/logo.svg" alt="Logo." />
+                <Image  src="/svg/logo.svg" alt="Logo."  height={70} width={150}  />
               </div>
               <div className="flex lg:gap-x-10  xl:gap-x-20  items-center">
                 <ul className="md:flex flex-row lg:gap-x-5  xl:gap-x-10 hidden z-[999]">
@@ -60,13 +60,13 @@ const Herosection = ({ handleShow, isShow }) => {
                 <div className="w-[1px] bg-[rgba(255,255,255,0.21);] h-[73px] z-[999]"></div>
                 <div className="flex lg:gap-x-5  xl:gap-x-8">
                   <div className="">
-                    <img src="/svg/search.svg" alt="search" />
+                    <Image src="/svg/search.svg" alt="search"  height={20} width={20}/>
                   </div>
                   <div className="">
-                    <img src="/svg/person.svg" alt="search" />
+                    <Image src="/svg/person.svg" alt="search"  height={20} width={20}/>
                   </div>
                   <div className="">
-                    <img src="/svg/business.svg" alt="search" />
+                    <Image src="/svg/business.svg" alt="search"  height={20} width={20}/>
                   </div>
                 </div>
               </div>
@@ -78,7 +78,7 @@ const Herosection = ({ handleShow, isShow }) => {
         {/* <div className="container mx-auto md:absolute md:top-0 "> */}
         <div className="lg:hidden flex justify-between items-center w-full px-4 py-4 z-[999] ">
           <div className="w-[100px] ">
-            <img src="/svg/logo.svg" alt="Logo." />
+            <Image src="/svg/logo.svg" alt="Logo."   height={70} width={120} />
           </div>
           <div
             className=" h-[35px] w-[35px] cursor-pointer z-[999]"
@@ -134,7 +134,7 @@ const Herosection = ({ handleShow, isShow }) => {
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
             >
-              <Image src="/images/main_watch.png" alt="watch.." height={200} width={500} />
+              <Image src="/images/main_watch.png" alt="watch.." height={400} width={800}  className="mx-auto"/>
             </div>
           </div>
         </div>
