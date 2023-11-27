@@ -5,24 +5,24 @@ const FollowUs = () => {
   const cardItems = [
     {
       id: 1,
-      url: "/images/w1.png",
+      url: "/images/w1.webp",
     },
     {
       id: 3,
-      url: "/images/w2.png",
+      url: "/images/w2.webp",
     },
     {
       id: 5,
-      url: "/images/w6.png",
+      url: "/images/w6.webp",
       icon: "/svg/social/instagram.svg",
     },
     {
       id: 7,
-      url: "/images/w4.png",
+      url: "/images/w4.webp",
     },
     {
       id: 9,
-      url: "/images/w5.png",
+      url: "/images/w5.webp",
     },
   ];
   return (

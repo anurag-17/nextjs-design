@@ -21,7 +21,7 @@ button:hover {
 }
 
 .hero-section {
-  background: url("/images/hero.png");
+  background: url("/images/hero.webp");
   height: 100vh;
   width: 100%;
   background-repeat: no-repeat;
