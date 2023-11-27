@@ -35,14 +35,13 @@ const Herosection = ({ handleShow, isShow }) => {
     left: 0,
     right: 0,
     backgroundColor: isScrolled ? "#18202b" : "transparent",
-    zIndex: 1000,
   };
 
   return (
     <>
       <main className="h-auto hero-section flex flex-col justify-center items-center md:relative">
         <div
-          className="lg:absolute top-0 w-full py-[15px] hidden lg:block"
+          className="lg:absolute top-0 w-full py-[15px] hidden lg:block z-[9999]"
           style={navbarStyle}
         >
           <div className="container mx-auto">
@@ -89,7 +88,7 @@ const Herosection = ({ handleShow, isShow }) => {
           </div>
         </div>
         {isShow && (
-          <div className="absolute  left-0 top-0 w-full h-auto  bg-[#4499ed] lg:hidden  z-[999]">
+          <div className="absolute  left-0 top-0 w-full h-auto  bg-[#4499ed] lg:hidden  z-[9]">
             <div
               className=" h-[35px] w-[35px]  cursor-pointer pt-4 pr-4 ml-auto z-[999]"
               onClick={() => handleShow({ value: false })}
@@ -109,9 +108,9 @@ const Herosection = ({ handleShow, isShow }) => {
 
         {/* mobile */}
 
-        <div className="container mx-auto ">
+        <div className="container mx-auto z-[99]">
           <div className="grid md:grid-cols-2 lg:justify-center lg:items-center gap-x-20 gap-y-10 pt-1 lg:pt-[100px] md:mt-0 mt-[70px]">
-            <div className="flex flex-col gap-5 lg:gap-10 justify-center  z-[9999] sal-example">
+            <div className="flex flex-col gap-5 lg:gap-10 justify-center  z-[99] sal-example">
               <h1 className="font-bold leading-[42px] lg:leading-[62px] 2xl:leading-[85px] uppercase text-white">
                 Give your
                 <p className="">

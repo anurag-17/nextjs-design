@@ -1,3 +1,4 @@
+import dynamic from "next/dynamic";
 import React from "react";
 
 const Section2 = () => {
@@ -53,4 +54,4 @@ const Section2 = () => {
   )
 };
 
-export default Section2;
+export default dynamic(() => Promise.resolve(Section2), { ssr: false });

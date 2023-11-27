@@ -116,7 +116,7 @@ const ParticleComponent = () => {
   return (
     <div
       id="particles-js"
-      className="z-[99]"
+      className="z-[9]"
       style={{ position: "absolute", width: "100%", height: "100%" }}
     />
   );
