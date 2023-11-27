@@ -14,7 +14,7 @@ const Herosection = ({ handleShow, isShow }) => {
     "CONTACT US",
   ];
   useEffect(() => {
-    if(window !== undefined){
+    if(typeof window !== 'undefined'){
       const handleScroll = () => {
         const scrollPosition = window.scrollY;
         setScrolled(scrollPosition > 0);

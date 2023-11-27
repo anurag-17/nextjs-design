@@ -4,7 +4,7 @@ import "particles.js";
 
 const ParticleComponent = () => {
   useEffect(() => {
-    if (window !== undefined) {
+    if (typeof window !== 'undefined') {
       window.particlesJS("particles-js", {
         particles: {
           number: {
