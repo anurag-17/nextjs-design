@@ -28,23 +28,23 @@ const Home = () => {
   const newProductItems = [
     {
       id: 1,
-      url: "/images/watch1.png",
+      url: "/images/watch1.webp",
       color: "brown",
       isCart: true,
     },
     {
       id: 2,
-      url: "/images/watch2.png",
+      url: "/images/watch2.webp",
       color: "blue",
     },
     {
       id: 3,
-      url: "/images/watch3.png",
+      url: "/images/watch3.webp",
       color: "black",
     },
     {
       id: 3,
-      url: "/images/watch4.png",
+      url: "/images/watch4.webp",
       color: "orange",
     },
   ];
@@ -52,22 +52,22 @@ const Home = () => {
   const bestSellersItems = [
     {
       id: 1,
-      url: "/images/watch3.png",
+      url: "/images/watch3.webp",
       color: "black",
     },
     {
       id: 2,
-      url: "/images/watch7.png",
+      url: "/images/watch7.webp",
       color: "red",
     },
     {
       id: 3,
-      url: "/images/watch6.png",
+      url: "/images/watch6.webp",
       color: "green",
     },
     {
       id: 3,
-      url: "/images/watch2.png",
+      url: "/images/watch2.webp",
       color: "blue",
     },
   ];

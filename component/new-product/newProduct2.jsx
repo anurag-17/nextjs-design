@@ -40,14 +40,14 @@ const NewProduct2 = () => {
              data-aos-easing="ease-out-cubic"
              data-aos-duration="2000" 
              data-aos-delay="50">
-                <Image src="/images/watch8.png" alt="" className="mx-auto" height={300} width={550}/>
+                <Image src="/images/watch8.webp" alt="" className="mx-auto" height={300} width={550}/>
             </div>
             <div className="lg:w-[60%] md:w-[70%] w-full relative flex justify-center items-center"
                data-aos="fade-up" 
                data-aos-easing="ease-out-cubic"
                data-aos-duration="2000" 
                data-aos-delay="50">
-                <Image src="/images/watch9.png" alt="" className="mx-auto" height={300} width={855} />
+                <Image src="/images/watch9.webp" alt="" className="mx-auto" height={300} width={855} />
                 <Image src="/svg/social/play.svg" alt="loading."  className="absolute  transform "  height={60} width={60} />
             </div>
           </div>
