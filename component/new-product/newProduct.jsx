@@ -8,7 +8,7 @@ const NewProduct = ({ cardItems, title }) => {
       <section className="py-[30px] lg:py-[50px]">
         <div className="container mx-auto">
           <div className="">
-            <h3 className="text-black font-['Red_Hat_Display'] text-[24px] md:text-[35px] font-bold leading:[30px] md:leading-[45px] text-center uppercase"
+            <h3 className="text-black  font-Red_Hat_Display text-[24px] md:text-[35px] font-bold leading:[30px] md:leading-[45px] text-center uppercase"
             data-aos="fade-up"
             data-aos-easing="ease-in-out"
             data-aos-duration="1000" >
@@ -34,14 +34,14 @@ const NewProduct = ({ cardItems, title }) => {
                     />
                     {items?.isCart && (
                       <div className=" absolute bottom-0 left-[10px] right-[10px] ">
-                        <button className=" inline-flex justify-center items-center gap-10 text-[14px] lg:text-[16px] px-6 xl:px-[45px] py-[17px] rounded-[50px] bg-[#000]  text-white font-semibold leading-[26px] font-[Montserrat] uppercase mx-auto  whitespace-nowrap w-full hover:bg-[#16202c] transition ">
+                        <button className=" inline-flex justify-center items-center gap-10 text-[14px] lg:text-[16px] px-6 xl:px-[45px] py-[17px] rounded-[50px] bg-[#000]  text-white font-semibold leading-[26px] font-montserrat uppercase mx-auto  whitespace-nowrap w-full hover:bg-[#16202c] transition ">
                           Add to cart
                         </button>
                       </div>
                     )}
                   </div>
                   <div className="px-4 flex flex-col gap-5 pt-5 ">
-                    <h6 className="text-black font-['Red_Hat_Display'] text-[15px] 2xl:text-[16px] font-medium leading-[26px] 2xl:whitespace-nowrap">
+                    <h6 className="text-black  font-Red_Hat_Display text-[15px] 2xl:text-[16px] font-medium leading-[26px] 2xl:whitespace-nowrap">
                       Rubber Strap for Moonswatch -{" "}
                       <span className=" capitalize">{items.color}</span>
                     </h6>
@@ -49,10 +49,10 @@ const NewProduct = ({ cardItems, title }) => {
                       <Image src="/svg/star.svg" alt="review"  height={16} width={94} />
                     </div>
                     <div className="flex md:flex-wrap items-center gap-x-10">
-                      <h5 className="text-black font-['Red_Hat_Display'] text-[16px] font-bold leading-[26px] whitespace-nowrap">
+                      <h5 className="text-black  font-Red_Hat_Display text-[16px] font-bold leading-[26px] whitespace-nowrap">
                         €49.90 EUR
                       </h5>
-                      <p className="text-[#949494] font-['Red_Hat_Display'] text-[12px] font-medium leading-[26px] whitespace-nowrap">
+                      <p className="text-[#949494]  font-Red_Hat_Display text-[12px] font-medium leading-[26px] whitespace-nowrap">
                         €59.90 EUR
                       </p>
                     </div>

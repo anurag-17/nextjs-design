@@ -11,7 +11,7 @@ const Reviews = () => {
       <section className="py-[30px] lg:py-[50px]">
         <div className="container mx-auto">
           <div className="">
-            <h3 className="text-black font-['Red_Hat_Display'] text-[24px] md:text-[35px] leading:[30px] md:leading-[45px] font-bold leading-[45px] text-center px-4"
+            <h3 className="text-black  font-Red_Hat_Display text-[24px] md:text-[35px] leading:[30px] md:leading-[45px] font-bold leading-[45px] text-center px-4"
               data-aos="fade-up"
               data-aos-easing="ease-in-out"
               data-aos-duration="1000" 
@@ -41,13 +41,13 @@ const Reviews = () => {
                       height={42} width={46}
                     />
                   </div>
-                  <p className="text-[#868686] font-['Red_Hat_Display'] text-[18px] font-normal leading-[28px]">
+                  <p className="text-[#868686]  font-Red_Hat_Display text-[18px] font-normal leading-[28px]">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
                     standard dummy text
                   </p>
 
-                  <p className="text-[#868686] font-['Red_Hat_Display'] text-[18px] font-semibold leading-[26 px]">- Tim R.</p>
+                  <p className="text-[#868686]  font-Red_Hat_Display text-[18px] font-semibold leading-[26 px]">- Tim R.</p>
                 </div>
               ))}
             </div>

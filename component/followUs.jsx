@@ -31,7 +31,7 @@ const FollowUs = () => {
         <div className="container mx-auto">
           <div className="">
             <h3
-              className="text-black font-['Red_Hat_Display'] text-[24px] md:text-[35px] font-bold leading:[30px] md:leading-[45px] text-center px-4"
+              className="text-black  font-Red_Hat_Display text-[24px] md:text-[35px] font-bold leading:[30px] md:leading-[45px] text-center px-4"
               data-aos="fade-up"
               data-aos-easing="ease-in-out"
               data-aos-duration="1000"

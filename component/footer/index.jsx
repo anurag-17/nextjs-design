@@ -31,7 +31,7 @@ const Footer = () => {
               <div className="">
                 <Image src="/svg/logo.svg" alt="Logo" height={70} width={150}/>
               </div>
-              <p className="text-[16px] font-normal text-[#C7C7C7] leading-[24px] font-['Red_Hat_Display'] ">
+              <p className="text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display ">
                 Our goal was to bring the most iconic watches to life by
                 creating unique and daring straps.
               </p>
@@ -40,14 +40,14 @@ const Footer = () => {
             {/* <div className="flex flex-warp justify-center md:flex-nowrap gap-20"> */}
 
             <div className="">
-              <h6 className="text-[18px] font-semibold text-[#fff] leading-[26px] font-['Red_Hat_Display']">
+              <h6 className="text-[18px] font-semibold text-[#fff] leading-[26px]  font-Red_Hat_Display">
                 Quick links
               </h6>
               <ul className="inline-flex flex-col gap-4 pt-[20px]">
                 {menusList1.map((list, inx) => (
                   <li
                     key={inx}
-                    className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px] font-['Red_Hat_Display']"
+                    className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display"
                   >
                     {list}
                   </li>
@@ -56,14 +56,14 @@ const Footer = () => {
             </div>
 
             <div className="">
-              <h6 className="text-[18px] font-semibold text-[#fff] leading-[26px] font-['Red_Hat_Display']">
+              <h6 className="text-[18px] font-semibold text-[#fff] leading-[26px]  font-Red_Hat_Display">
                 Other Links
               </h6>
               <ul className="inline-flex flex-col gap-4 pt-[20px]">
                 {menuList2.map((list, inx) => (
                   <li
                     key={inx}
-                    className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px] font-['Red_Hat_Display']"
+                    className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display"
                   >
                     {list}
                   </li>
@@ -72,14 +72,14 @@ const Footer = () => {
             </div>
 
             <div className="">
-              <h6 className="text-[18px] font-semibold text-[#fff] leading-[26px] font-['Red_Hat_Display']">
+              <h6 className="text-[18px] font-semibold text-[#fff] leading-[26px]  font-Red_Hat_Display">
                 My Account
               </h6>
               <ul className="inline-flex flex-col gap-4 pt-[20px]">
                 {menuList3.map((list, inx) => (
                   <li
                     key={inx}
-                    className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px] font-['Red_Hat_Display']"
+                    className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display"
                   >
                     {list}
                   </li>
@@ -90,14 +90,14 @@ const Footer = () => {
             {/* </div> */}
 
             <div className=" flex flex-col gap-5 lg:gap-8">
-              <p className="text-[18px] font-semibold text-[#fff] leading-[26px] font-['Red_Hat_Display']">
+              <p className="text-[18px] font-semibold text-[#fff] leading-[26px]  font-Red_Hat_Display">
                 Subscribe to our emails
               </p>
               <div className="border border-[#3A4552] flex justify-between px-4 h-[48px]">
                 <input
                   type="email"
                   placeholder="Email"
-                  className="border-none bg-[#0F1B29] focus-visible:outline-none  text-white placeholder:text-[#C7C7C7] text-[16px] font-normal  leading-[15px] font-['Red_Hat_Display'] "
+                  className="border-none bg-[#0F1B29] focus-visible:outline-none  text-white placeholder:text-[#C7C7C7] text-[16px] font-normal  leading-[15px]  font-Red_Hat_Display "
                 />
                 <Image src="/svg/arrow.svg" alt="icons" height={9} width={13} className="cursor-pointer" />
               </div>
@@ -120,7 +120,7 @@ const Footer = () => {
 
           {/* bottom */}
           <div className="flex flex-wrap-reverse sm:flex-nowrap  gap-y-3 md:gap-y-6 justify-center  sm:justify-between items-center py-4 border-t border-t-[#315031]">
-            <p className="text-[14px] font-normal text-[#A1A1A1] leading-[21px] font-['Red_Hat_Display'] ">
+            <p className="text-[14px] font-normal text-[#A1A1A1] leading-[21px]  font-Red_Hat_Display ">
               © 2023 VINCENT PARIS. All Rights Reserved.
             </p>
             <div className="">

@@ -2,13 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Red Hat Display";
+  src: url("/fonts/Red_Hat_Display/RedHatDisplay-Regular.ttf") format("ttf"),
+    url("/fonts/Red_Hat_Display/RedHatDisplay-Regular.ttf") format("ttf");
+  /* Add other font formats if necessary */
+  font-weight: normal;
+  font-style: normal;
+}
 
 html {
   scroll-behavior: smooth;
 }
 
 button {
-  transition: .3s;
+  transition: 0.3s;
 }
 
 button:hover {
@@ -70,7 +78,6 @@ h1 {
   text-decoration: none;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.3s ease;
-
 }
 
 .menu-list:hover {
@@ -79,7 +86,6 @@ h1 {
   /* font-weight: bold; */
   /* position: relative; */
 }
-
 
 /* ------------   icons hover ----------- */
 
@@ -91,16 +97,13 @@ h1 {
 .support_box:hover .support-icon,
 .support_box:focus .support-icon {
   transform: rotate(360deg);
-  ;
 }
 
 /* ------------   icons hover ----------- */
 
-
 @media only screen and (max-width: 1600px) {
   h1 {
     font-size: 50px;
-
   }
 }
 
@@ -110,7 +113,8 @@ h1 {
   }
 }
 
-@media only screen and (max-width: 1400px) {}
+@media only screen and (max-width: 1400px) {
+}
 
 @media only screen and (max-width: 1024px) {
   .hero-section {
@@ -124,15 +128,11 @@ h1 {
   h1 {
     font-size: 30px;
   }
-
 }
 
-
 @media only screen and (max-width: 767px) {
-
   h1 {
     font-size: 30px;
     text-align: center;
   }
-
 }

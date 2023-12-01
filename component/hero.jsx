@@ -52,7 +52,7 @@ const Herosection = ({ handleShow, isShow }) => {
               <div className="flex lg:gap-x-10  xl:gap-x-20  items-center">
                 <ul className="md:flex flex-row lg:gap-x-5  xl:gap-x-10 hidden z-[999]">
                   {navItems.map((menu) => (
-                    <li className="text-white font-['Red_Hat_Display'] text-[14px] font-medium leading-normal menu-list cursor-default">
+                    <li className="text-white font-Red_Hat_Display text-[14px] font-medium leading-normal menu-list cursor-default">
                       {menu}
                     </li>
                   ))}
@@ -97,7 +97,7 @@ const Herosection = ({ handleShow, isShow }) => {
             </div>
             <ul className="flex flex-col gap-x-10 gap-y-8  px-8 py-8">
               {navItems.map((menu) => (
-                <li className="text-white font-['Red_Hat_Display'] text-[14px] font-medium leading-normal ">
+                <li className="text-white font-Red_Hat_Display text-[14px] font-medium leading-normal ">
                   {menu}
                 </li>
               ))}
@@ -117,7 +117,7 @@ const Herosection = ({ handleShow, isShow }) => {
               data-aos-duration="1000"
               data-aos-delay="50"
             >
-              <h1 className="font-bold leading-[42px] lg:leading-[62px] 2xl:leading-[85px] uppercase text-white">
+              <h1 className="font-bold leading-[42px] lg:leading-[62px] 2xl:leading-[85px] uppercase text-white font-Red_Hat_Display">
                 Give your
                 <p className="">
                   <span className="text-[#54A3F2]">watch</span> the look

@@ -40,8 +40,8 @@ const Section2 = () => {
                     <Image src={items.url} alt="" className="support-icon" height={70} width={70}/>
                   </div>
                   <div className="">
-                    <h6 className="text-black font-['Red_Hat_Display'] text-[18px] lg:text-[20px] font-bold leading-normal">{items.label}</h6>
-                    <p className="text-black font-['Red_Hat_Display'] text-[15px] lg:text-[16px] font-normal leading-normal">{items.desc}</p>
+                    <h6 className="text-black  font-Red_Hat_Display text-[18px] lg:text-[20px] font-bold leading-normal">{items.label}</h6>
+                    <p className="text-black  font-Red_Hat_Display text-[15px] lg:text-[16px] font-normal leading-normal">{items.desc}</p>
                   </div>
                 </div>
                 {!(inx === 2) && (
