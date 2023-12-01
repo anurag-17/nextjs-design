@@ -134,7 +134,7 @@ const Herosection = ({ handleShow, isShow }) => {
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
             >
-              <Image src="/images/main_watch.webp" loading="lazy"   alt="watch.." height={400} width={800}  className="mx-auto"/>
+              <Image src="/images/main_watch.webp" alt="watch.." height={400} width={800}  className="mx-auto"/>
             </div>
           </div>
         </div>
