@@ -2,6 +2,7 @@
 
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import Button from "./button/Button";
 
@@ -46,8 +47,10 @@ const Herosection = ({ handleShow, isShow }) => {
         >
           <div className="container mx-auto">
             <div className="lg:flex justify-between items-center h-[100px]  ">
-              <div className="md:w-[120px] xl:w-auto z-[999] cursor-pointer"> 
-                <Image  src="/svg/logo.svg" alt="Logo."  height={70} width={150}  />
+              <div className="md:w-[120px] xl:w-auto z-[999] cursor-pointer">
+                <Link href="/">
+                  <Image src="/svg/logo.svg" alt="Logo." height={70} width={150} />
+                </Link>
               </div>
               <div className="flex lg:gap-x-10  xl:gap-x-20  items-center">
                 <ul className="md:flex flex-row lg:gap-x-5  xl:gap-x-10 hidden z-[999]">
@@ -60,13 +63,13 @@ const Herosection = ({ handleShow, isShow }) => {
                 <div className="w-[1px] bg-[rgba(255,255,255,0.21);] h-[73px] z-[999]"></div>
                 <div className="flex lg:gap-x-5  xl:gap-x-8">
                   <div className="cursor-pointer">
-                    <Image src="/svg/search.svg" alt="search"  height={20} width={20}/>
+                    <Image src="/svg/search.svg" alt="search" height={20} width={20} />
                   </div>
                   <div className="cursor-pointer">
-                    <Image src="/svg/person.svg" alt="search"  height={20} width={20}/>
+                    <Image src="/svg/person.svg" alt="search" height={20} width={20} />
                   </div>
-                  <div className="cursor-pointer">  
-                    <Image src="/svg/business.svg" alt="search"  height={20} width={20}/>
+                  <div className="cursor-pointer">
+                    <Image src="/svg/business.svg" alt="search" height={20} width={20} />
                   </div>
                 </div>
               </div>
@@ -78,13 +81,15 @@ const Herosection = ({ handleShow, isShow }) => {
         {/* <div className="container mx-auto md:absolute md:top-0 "> */}
         <div className="lg:hidden flex justify-between items-center w-full px-4 py-4 z-[999] ">
           <div className="w-[100px] ">
-            <Image src="/svg/logo.svg" alt="Logo."   height={70} width={120} />
+            <Link href="/">
+              <Image src="/svg/logo.svg" alt="Logo." height={70} width={120} />
+            </Link>
           </div>
           <div
             className=" h-[35px] w-[35px] cursor-pointer z-[999]"
             onClick={() => handleShow({ value: true })}
           >
-            <Image src="/svg/menu.svg" alt="menu" height={35} width={35}/>
+            <Image src="/svg/menu.svg" alt="menu" height={35} width={35} />
           </div>
         </div>
         {isShow && (
@@ -93,7 +98,7 @@ const Herosection = ({ handleShow, isShow }) => {
               className=" h-[35px] w-[35px]  cursor-pointer pt-4 pr-4 ml-auto z-[999]"
               onClick={() => handleShow({ value: false })}
             >
-              <Image src="/svg/close.svg" alt="close" height={35} width={40}/>
+              <Image src="/svg/close.svg" alt="close" height={35} width={40} />
             </div>
             <ul className="flex flex-col gap-x-10 gap-y-8  px-8 py-8">
               {navItems.map((menu) => (
@@ -134,7 +139,7 @@ const Herosection = ({ handleShow, isShow }) => {
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
             >
-              <Image src="/images/main_watch.webp" alt="watch.." height={400} width={800}  className="mx-auto"/>
+              <Image src="/images/main_watch.webp" alt="watch.." height={400} width={800} className="mx-auto" />
             </div>
           </div>
         </div>
@@ -143,4 +148,4 @@ const Herosection = ({ handleShow, isShow }) => {
   );
 };
 
-  export default dynamic(() => Promise.resolve(Herosection), { ssr: false });
+export default dynamic(() => Promise.resolve(Herosection), { ssr: false });

@@ -29,7 +29,9 @@ const Footer = () => {
           <div className="flex flex-wrap lg:flex-nowrap gap-y-10 gap-x-3 lg:gap-x-5 xl:gap-x-10 2xl:gap-x-20 py-[30px] lg:py-[80px] justify-between  ">
             <div className=" flex flex-col gap-5 lg:gap-8 w-full sm:w-[40%] md:w-[22%]">
               <div className="cursor-pointer">
+              <Link href="/">
                 <Image src="/svg/logo.svg" alt="Logo" height={70} width={150}/>
+              </Link>
               </div>
               <p className="text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display ">
                 Our goal was to bring the most iconic watches to life by
@@ -45,12 +47,14 @@ const Footer = () => {
               </h6>
               <ul className="inline-flex flex-col gap-4 pt-[20px]">
                 {menusList1.map((list, inx) => (
+                  <Link href="/">
                   <li
                     key={inx}
                     className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display cursor-pointer"
                   >
                     {list}
                   </li>
+                  </Link>
                 ))}
               </ul>
             </div>
@@ -61,12 +65,14 @@ const Footer = () => {
               </h6>
               <ul className="inline-flex flex-col gap-4 pt-[20px]">
                 {menuList2.map((list, inx) => (
+                    <Link href="/">
                   <li
                     key={inx}
                     className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display cursor-pointer"
                   >
                     {list}
                   </li>
+                  </Link>
                 ))}
               </ul>
             </div>
@@ -77,12 +83,14 @@ const Footer = () => {
               </h6>
               <ul className="inline-flex flex-col gap-4 pt-[20px]">
                 {menuList3.map((list, inx) => (
+                    <Link href="/">
                   <li
                     key={inx}
                     className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display cursor-pointer"
                   >
                     {list}
                   </li>
+                  </Link>
                 ))}
               </ul>
             </div>
