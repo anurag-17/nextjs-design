@@ -17,7 +17,7 @@ const NewProduct = ({ cardItems, title }) => {
             </h3>
             <div className="bg-[#54A3F2] w-[142px] mx-auto h-[3px] mt-[15px]"></div>
            <div className="">
-           <div className="md:pt-[70px] pt-[30px] flex  flex-wrap md:flex-row lg:flex-nowrap gap-x-5 2xl:gap-x-5 gap-y-5  xl:gap-y-10 md:px-0 px-4 md:justify-between justify-center ">
+           <div className="md:pt-[70px] pt-[30px] flex  flex-wrap md:flex-row lg:flex-nowrap gap-x-5 2xl:gap-x-5 gap-y-5  xl:gap-y-10 md:px-0 px-4 lg:justify-between justify-center ">
               {cardItems.map((items, inx) => (
                 <div className="border border-[#D0D0D0] rounded-[20px] bg-white  px-3 pt-4 pb-3 md:pb-8 2xl:w-[23.5%] prod-card cursor-pointer" 
                 data-aos="fade-up" 
