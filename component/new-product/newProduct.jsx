@@ -40,10 +40,10 @@ const NewProduct = ({ cardItems, title }) => {
                   </div>
 
                   <div className="px-4 flex flex-col gap-5 pt-5 ">
-                    <h6 className="text-black  font-Red_Hat_Display text-[15px] 2xl:text-[16px] font-medium leading-[26px] 2xl:whitespace-nowrap cursor-pointer ">
+                    <p className="text-black  font-Red_Hat_Display text-[15px] 2xl:text-[16px] font-medium leading-[26px] 2xl:whitespace-nowrap cursor-pointer ">
                       Rubber Strap for Moonswatch -{" "}
                       <span className=" capitalize">{items.color}</span>
-                    </h6>
+                    </p>
                     <div className="">
                       <Image src="/svg/star.svg" alt="review"  height={16} width={94} />
                     </div>

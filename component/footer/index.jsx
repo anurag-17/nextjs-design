@@ -42,56 +42,50 @@ const Footer = () => {
             {/* <div className="flex flex-warp justify-center md:flex-nowrap gap-20"> */}
 
             <div className="">
-              <h6 className="text-[18px] font-semibold text-[#fff] leading-[26px]  font-Red_Hat_Display">
+              <p className="text-[18px] font-semibold text-[#fff] leading-[26px]  font-Red_Hat_Display">
                 Quick links
-              </h6>
+              </p>
               <ul className="inline-flex flex-col gap-4 pt-[20px]">
                 {menusList1.map((list, inx) => (
-                  <Link href="/">
                   <li
                     key={inx}
                     className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display cursor-pointer"
                   >
                     {list}
                   </li>
-                  </Link>
                 ))}
               </ul>
             </div>
 
             <div className="">
-              <h6 className="text-[18px] font-semibold text-[#fff] leading-[26px]  font-Red_Hat_Display">
+              <p className="text-[18px] font-semibold text-[#fff] leading-[26px]  font-Red_Hat_Display">
                 Other Links
-              </h6>
+              </p>
               <ul className="inline-flex flex-col gap-4 pt-[20px]">
                 {menuList2.map((list, inx) => (
-                    <Link href="/">
                   <li
                     key={inx}
                     className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display cursor-pointer"
                   >
                     {list}
                   </li>
-                  </Link>
                 ))}
               </ul>
             </div>
 
             <div className="">
-              <h6 className="text-[18px] font-semibold text-[#fff] leading-[26px]  font-Red_Hat_Display">
+              <p className="text-[18px] font-semibold text-[#fff] leading-[26px]  font-Red_Hat_Display">
                 My Account
-              </h6>
+              </p>
               <ul className="inline-flex flex-col gap-4 pt-[20px]">
                 {menuList3.map((list, inx) => (
-                    <Link href="/">
                   <li
                     key={inx}
                     className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display cursor-pointer"
                   >
                     {list}
                   </li>
-                  </Link>
-                ))}
+s                ))}
               </ul>
             </div>
 
