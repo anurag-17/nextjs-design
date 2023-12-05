@@ -20,6 +20,7 @@ const Reviews = () => {
             </h3>
             <div className="bg-[#54A3F2] w-[142px] mx-auto h-[3px] mt-[15px]"></div>
             <div className="lg:pt-[70px] pt-[30px] flex  flex-wrap md:flex-row lg:flex-nowrap  gap-y-10 md:px-0 px-4 justify-center ">
+              
               {cardItems.map((items) => (
                 <div
                   className={`rounded-[20px] flex flex-col gap-5   xl:gap-10 text-center px-[20px] lg:px-[50px] lg:py-[50px] xl:px-[100px] py-[20px] ${
