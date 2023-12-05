@@ -36,19 +36,19 @@ const NewProduct2 = () => {
           </div>
 
           <div className="md:pt-[70px] pt-[30px] flex flex-wrap lg:flex-nowrap md:gap-5 gap-y-5 lg:gap-10  justify-center items-center">
-            <div className="lg:w-[40%] md:w-[70%] w-full"    data-aos="fade-up" 
+            <div className="lg:w-[39%] md:w-[70%] w-full"    data-aos="fade-up" 
              data-aos-easing="ease-out-cubic"
              data-aos-duration="2000" 
              data-aos-delay="50">
                 <Image src="/images/watch8.webp" alt="" className="mx-auto" height={300} width={550}/>
             </div>
-            <div className="lg:w-[60%] md:w-[70%] w-full relative flex justify-center items-center"
+            <div className="lg:w-[61%] md:w-[70%] w-full relative flex justify-center items-center"
                data-aos="fade-up" 
                data-aos-easing="ease-out-cubic"
                data-aos-duration="2000" 
                data-aos-delay="50">
-                <Image src="/images/watch9.webp" alt="" className="mx-auto" height={300} width={855} />
-                <Image src="/svg/social/play.svg" alt="loading."  className="absolute  transform "  height={60} width={60} />
+                <Image src="/images/watch9.webp" alt="" className="mx-auto" height={310} width={855} />
+                <Image src="/svg/social/play.svg" alt="loading."  className="absolute  transform cursor-pointer"  height={60} width={60} />
             </div>
           </div>
         </div>

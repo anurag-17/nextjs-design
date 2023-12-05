@@ -46,26 +46,26 @@ const Herosection = ({ handleShow, isShow }) => {
         >
           <div className="container mx-auto">
             <div className="lg:flex justify-between items-center h-[100px]  ">
-              <div className="md:w-[120px] xl:w-auto z-[999]">
+              <div className="md:w-[120px] xl:w-auto z-[999] cursor-pointer"> 
                 <Image  src="/svg/logo.svg" alt="Logo."  height={70} width={150}  />
               </div>
               <div className="flex lg:gap-x-10  xl:gap-x-20  items-center">
                 <ul className="md:flex flex-row lg:gap-x-5  xl:gap-x-10 hidden z-[999]">
                   {navItems.map((menu) => (
-                    <li className="text-white font-Red_Hat_Display text-[14px] font-medium leading-normal menu-list cursor-default">
+                    <li className="text-white font-Red_Hat_Display text-[14px] font-medium leading-normal menu-list cursor-pointer">
                       {menu}
                     </li>
                   ))}
                 </ul>
                 <div className="w-[1px] bg-[rgba(255,255,255,0.21);] h-[73px] z-[999]"></div>
                 <div className="flex lg:gap-x-5  xl:gap-x-8">
-                  <div className="">
+                  <div className="cursor-pointer">
                     <Image src="/svg/search.svg" alt="search"  height={20} width={20}/>
                   </div>
-                  <div className="">
+                  <div className="cursor-pointer">
                     <Image src="/svg/person.svg" alt="search"  height={20} width={20}/>
                   </div>
-                  <div className="">
+                  <div className="cursor-pointer">  
                     <Image src="/svg/business.svg" alt="search"  height={20} width={20}/>
                   </div>
                 </div>

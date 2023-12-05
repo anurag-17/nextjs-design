@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="container mx-auto">
           <div className="flex flex-wrap lg:flex-nowrap gap-y-10 gap-x-3 lg:gap-x-5 xl:gap-x-10 2xl:gap-x-20 py-[30px] lg:py-[80px] justify-between  ">
             <div className=" flex flex-col gap-5 lg:gap-8 w-full sm:w-[40%] md:w-[22%]">
-              <div className="">
+              <div className="cursor-pointer">
                 <Image src="/svg/logo.svg" alt="Logo" height={70} width={150}/>
               </div>
               <p className="text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display ">
@@ -47,7 +47,7 @@ const Footer = () => {
                 {menusList1.map((list, inx) => (
                   <li
                     key={inx}
-                    className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display"
+                    className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display cursor-pointer"
                   >
                     {list}
                   </li>
@@ -63,7 +63,7 @@ const Footer = () => {
                 {menuList2.map((list, inx) => (
                   <li
                     key={inx}
-                    className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display"
+                    className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display cursor-pointer"
                   >
                     {list}
                   </li>
@@ -79,7 +79,7 @@ const Footer = () => {
                 {menuList3.map((list, inx) => (
                   <li
                     key={inx}
-                    className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display"
+                    className="text-[15px] xl:text-[16px] font-normal text-[#C7C7C7] leading-[24px]  font-Red_Hat_Display cursor-pointer"
                   >
                     {list}
                   </li>
